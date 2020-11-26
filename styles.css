@@ -101,12 +101,14 @@ body {
 .under-image-text {
   font-size: 8px;
   margin: 10px;
+  color: #909090;
 }
 
 body {
   margin: 0;
   padding: 0;
   font-family: 'Open Sans', sans-serif;
+  background-color: #F8FFB8;
 }
 
 h1 {
@@ -253,10 +255,6 @@ p {
   }
 }
 
-.bottomDiv {
-  background-color: #F8FFB8;
-}
-
 h1 {
   font-family: 'Montserrat', sans-serif;
   font-size: 48px;
@@ -289,8 +287,7 @@ p {
      object-fit: cover;
 }
 
-.imgText {
-  color: #909090;
-  text-align: left;
+.bottomImg {
+  margin-bottom: 40px;
 }
 /*# sourceMappingURL=styles.css.map */

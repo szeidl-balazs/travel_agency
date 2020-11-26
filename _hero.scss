@@ -12,7 +12,7 @@ body{
 .heroDiv{
 	background: linear-gradient(180deg, rgba(0,0,0,0), rgba(248, 255, 184, 0.4), rgba(248, 255, 184, 0.95), rgba(248, 255, 184, 1)), url(/img/heroBg.png); 
 	background-size: cover;
-	height: 1396px;
+	height: 1280px;
 }
 
 .navDiv{
@@ -91,12 +91,4 @@ body{
 .heroIcons{
 	margin-top: 55px;
 	margin-bottom: 107px;
-}
-
-.map_bg{
-	z-index: 2;
-}
-
-.map_bg1{
-	z-index: 3;
 }

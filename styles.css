@@ -13,7 +13,7 @@ body {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(rgba(248, 255, 184, 0.4)), color-stop(rgba(248, 255, 184, 0.95)), to(#f8ffb8)), url(/img/heroBg.png);
   background: linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(248, 255, 184, 0.4), rgba(248, 255, 184, 0.95), #f8ffb8), url(/img/heroBg.png);
   background-size: cover;
-  height: 1396px;
+  height: 1280px;
 }
 
 .navDiv {
@@ -115,14 +115,6 @@ body {
   margin-bottom: 107px;
 }
 
-.map_bg {
-  z-index: 2;
-}
-
-.map_bg1 {
-  z-index: 3;
-}
-
 .under-image-text {
   font-size: 8px;
   margin: 10px;
@@ -143,12 +135,39 @@ body {
   color: #00DBDC;
 }
 
-@media (max-width: 1060px) {
+@media (max-width: 1200px) {
   .icon-line-h1-container h1 {
-    margin: 0px;
-    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 900px) {
+  .icon-line-h1-container h1 {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 700px) {
+  .icon-line-h1-container h1 {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 520px) {
+  .icon-line-h1-container h1 {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 420px) {
+  .icon-line-h1-container h1 {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 360px) {
+  .icon-line-h1-container h1 {
     font-size: 20px;
-    color: #00DBDC;
   }
 }
 
@@ -226,7 +245,7 @@ p {
 }
 
 .img-container {
-  margin-top: 200px;
+  margin-top: 50px;
 }
 
 @media (max-width: 400px) {
@@ -278,15 +297,14 @@ p {
     letter-spacing: 6px;
   }
   #palm-icon {
-    width: 30px;
+    width: 45px;
     margin: 5px;
   }
   .blue-line {
     width: 135px;
-    height: 4px;
-    top: 10px;
+    height: 6px;
     position: relative;
-    top: 17px;
+    top: 22px;
   }
   .under-image-text {
     font-size: 12px;
